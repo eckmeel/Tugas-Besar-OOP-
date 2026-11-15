@@ -1,0 +1,40 @@
+# ===== Build output =====
+build/
+bin/
+out/
+target/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.war
+*.log
+
+# ===== Gradle / Maven =====
+.gradle/
+.mvn/wrapper/maven-wrapper.jar
+dependency-reduced-pom.xml
+
+# ===== IDE =====
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.classpath
+.project
+.settings/
+nbproject/
+*.swp
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Misc =====
+*.tmp
+*.bak
+hs_err_pid*
+replay_pid*
